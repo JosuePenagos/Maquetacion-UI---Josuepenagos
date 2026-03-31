@@ -1,19 +1,22 @@
-# My flutter universe
+Árbol de Widgets 
 
-A new Flutter project created with FlutLab - https://flutlab.io
 
-## Getting Started
+Scaffold (Padre)
 
-A few resources to get you started if this is your first Flutter project:
+Stack (Hijo del Scaffold - Permite encimar cosas)
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+Image.network (Hijo del Stack - Es la capa del fondo)
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Container (Hijo del Stack - Es el filtro oscuro sobre la imagen)
 
-## Getting Started: FlutLab - Flutter Online IDE
+Column (Hijo del Stack - Organiza todo el texto verticalmente)
 
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+Text (Hijo de la Column - Nombre "ZOÉ")
+
+Text (Hijo de la Column - Eslogan "UNIVERSO MUSICAL")
+
+SizedBox (Hijo de la Column - Crea el espacio vacío)
+
+ElevatedButton (Hijo de la Column - El botón para entrar)
+
+Text (Hijo del ElevatedButton - El texto que dice "ENTRAR")
